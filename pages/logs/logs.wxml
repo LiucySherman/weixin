@@ -1,6 +1,12 @@
 <!--logs.wxml-->
+<view wx:for = "{{userInfo}}">{{index}}+{{item}}</view>
+<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+<import src="../index/index.wxss"/>
+
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
+
+  <!-- <block wx:for="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+  </block> -->
 </view>
+<button bindtap='openMap' >地图</button>

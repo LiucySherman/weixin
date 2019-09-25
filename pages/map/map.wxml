@@ -1,0 +1,2 @@
+<!-- <map id='myMap' longitude="114" latitude="22.00" show-location scale="8" class="map-style"></map> -->
+<map id="map" longitude="114.00" latitude="22.7" scale="8" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 900px;"></map>

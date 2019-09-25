@@ -101,8 +101,8 @@ Page({
       },
       success: function (res) {
         console.log(res.data)//打印到控制台
-        var message = res.data.message;
-        if (message == null) {
+        var aa = res.data.message;
+        if (aa == null) {
           var toastText = '数据获取失败';
           wx.showToast({
             title: toastText,
@@ -111,7 +111,7 @@ Page({
           });
         } else {
           that.setData({
-            message: message
+            message: aa
           })
         }
       }

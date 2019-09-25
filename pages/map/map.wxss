@@ -1,0 +1,4 @@
+.map-style{
+  width: 800rpx;
+  height: 800rpx;
+}
